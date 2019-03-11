@@ -1,0 +1,94 @@
+/*css reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+/*Mobile view*/
+body{
+	max-width: 45rem;
+	margin: auto;
+	text-align: center;
+}
+.wrapper{
+	background-image: url(../image/bg.jpg);
+	background-size: cover;
+}
+i{
+	font-size: 6rem;
+	color: #0F0A0A;
+	margin-top: 4rem;
+}
+h1{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 4rem;
+	color: #0F0A0A;
+	margin-top: 2rem;
+}
+p{
+	font-family: 'Lilita One', cursive;
+	font-size: 1rem;
+	color: #0F0A0A;
+	margin-top: 1.5rem;
+}
+input{
+	font-family: 'Coda', cursive;
+	font-size: 1rem;
+	width: 30rem;
+	height: 2.5rem;
+	background-color: #F5EFED;
+	border: none;
+	border-radius: 0.2rem;
+	margin-top: 1rem;
+}
+#trigger-click{
+	font-family: 'Coda', cursive;
+	font-size: 1rem;
+	color: #0F0A0A;
+	width: 30.1rem;
+	height: 2.5rem;
+	background-color: #2292A4;
+	border: none;
+	border-radius: 0.2rem;
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+	padding-top: 0.2rem;
+	position: relative;
+	right: 0.2rem;
+}
+#display-data{
+	text-align: left;
+	position: relative;
+	left: 7.5rem;
+	margin-bottom: 3.5rem;
+	margin-top: 1.5rem;
+}
+main ul li{
+	max-width: 30rem;
+	display: block;
+	font-family: 'Coda', cursive;
+	font-size: 1rem;
+	color: #0F0A0A;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	border-bottom: 0.1rem solid #2292A4;
+}
+footer ul{
+	max-width: 30rem;
+	margin: auto;
+	padding-bottom: 3rem;
+	border-top: 0.08rem dashed #F5EFED;
+}
+footer ul li{
+	display: inline-block;
+	margin: 1rem;
+}
+footer ul li i{
+	font-size: 1.5rem;
+	color: #D96C06;
+}
+.error{
+	font-family: 'Coda', cursive;
+	font-size: 1rem;
+	position: relative;
+	right: 11.5rem;
+	bottom: 3rem;
+}
